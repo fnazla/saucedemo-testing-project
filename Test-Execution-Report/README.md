@@ -15,15 +15,13 @@
 | TC-002 | Incorrect password | Login is refused, an error message is displayed, and the user remained on the login page. | Pass | — |
 | TC-003 | Empty username | Epic sadface: Username is required | Pass | — |
 | TC-004 | Empty password | Epic sadface: Password is required | Pass | — |
-| TC-005 | Both fields empty |Epic sadface: Username is required
- | Pass | — |
+| TC-005 | Both fields empty |Epic sadface: Username is required| Pass | — |
 
 ## Summary
 - Total test cases: 5
-- Passed: 0
+- Passed: 5
 - Failed: 0
 - Blocked: 0
-- Not run: 5
+- Not run: 0
 
-## Observations
-Add any relevant findings or limitations after testing.
+
