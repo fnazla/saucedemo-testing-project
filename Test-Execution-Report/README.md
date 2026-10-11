@@ -13,9 +13,10 @@
 |---|---|---|---|---|
 | TC-001 | Valid login | Product page opened and products were displayed| Pass | — |
 | TC-002 | Incorrect password | Login is refused, an error message is displayed, and the user remained on the login page. | Pass | — |
-| TC-003 | Empty username | — | Not Run | — |
-| TC-004 | Empty password | — | Not Run | — |
-| TC-005 | Both fields empty | — | Not Run | — |
+| TC-003 | Empty username | Epic sadface: Username is required | Pass | — |
+| TC-004 | Empty password | Epic sadface: Password is required | Pass | — |
+| TC-005 | Both fields empty |Epic sadface: Username is required
+ | Pass | — |
 
 ## Summary
 - Total test cases: 5
