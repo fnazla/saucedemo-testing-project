@@ -12,7 +12,7 @@
 | Test ID | Test Scenario | Actual Result | Status | Evidence / Bug ID |
 |---|---|---|---|---|
 | TC-001 | Valid login | Product page opened and products were displayed| Pass | — |
-| TC-002 | Incorrect password | Invalid message | Not Run | — |
+| TC-002 | Incorrect password | Login is refused, an error message is displayed, and the user remained on the login page. | Pass | — |
 | TC-003 | Empty username | — | Not Run | — |
 | TC-004 | Empty password | — | Not Run | — |
 | TC-005 | Both fields empty | — | Not Run | — |
