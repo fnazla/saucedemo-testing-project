@@ -14,7 +14,7 @@
 
 **Test Data**
 - Username: standard_user
-- Password: Use the demo password displayed on the login page.
+- Password: secret_sauce
 
 **Steps**
 1. Enter the username.
