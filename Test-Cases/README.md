@@ -82,3 +82,36 @@ a password is required.
 **Expected Result**
 Login is refused and a required-field validation message
 is displayed. The user remains on the login page.
+
+## TC-006: Add a product to the basket
+**Priority:** High
+**Type:** Positive
+**Precondition:** Logged in as standard_user with an empty basket.
+
+**Steps**
+1. Note the name and price of a product.
+2. Click its Add to cart button.
+3. Check the basket badge.
+4. Open the basket.
+
+**Expected Result**
+- The basket badge shows 1.
+- The selected product appears in the basket.
+- Its name and price match the product listing.
+- Its quantity is 1.
+
+## TC-007: Remove a product from the basket
+**Priority:** High
+**Type:** Positive
+**Precondition:** Logged in as standard_user with exactly one
+product in the basket.
+
+**Steps**
+1. Open the basket.
+2. Click Remove beside the product.
+3. Check the basket contents and badge.
+
+**Expected Result**
+- The product is removed.
+- The basket is empty.
+- The basket badge no longer displays an item count.
