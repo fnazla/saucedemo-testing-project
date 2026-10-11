@@ -49,7 +49,7 @@ remains on the login page.
 
 **Steps**
 1. Leave the username field empty.
-2. Enter the correct demo password.
+2. Enter the correct demo password (secret_sauce).
 3. Click Login.
 
 **Expected Result**
