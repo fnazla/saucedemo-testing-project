@@ -16,6 +16,8 @@
 | TC-003 | Empty username | Epic sadface: Username is required | Pass | — |
 | TC-004 | Empty password | Epic sadface: Password is required | Pass | — |
 | TC-005 | Both fields empty |Epic sadface: Username is required| Pass | — |
+| TC-006 |  | |  |  |
+| TC-007 | |  |  |
 
 ## Summary
 - Total test cases: 5
