@@ -115,3 +115,71 @@ product in the basket.
 - The product is removed.
 - The basket is empty.
 - The basket badge no longer displays an item count.
+
+## TC-008: Checkout with an empty first name
+**Priority:** High
+**Type:** Negative
+**Precondition:** Logged in as standard_user with one product
+in the basket, on the checkout information page.
+
+**Steps**
+1. Leave First Name empty.
+2. Enter Tester in Last Name.
+3. Enter SG5 1AA in Postal Code.
+4. Click Continue.
+
+**Expected Result**
+A message indicates that First Name is required.
+The user remains on the checkout information page.
+
+## TC-009: Checkout with an empty last name
+**Priority:** High
+**Type:** Negative
+**Precondition:** Logged in as standard_user with one product
+in the basket, on the checkout information page.
+
+**Steps**
+1. Enter Test in First Name.
+2. Leave Last Name empty.
+3. Enter SG5 1AA in Postal Code.
+4. Click Continue.
+
+**Expected Result**
+A message indicates that Last Name is required.
+The user remains on the checkout information page.
+
+## TC-010: Checkout with an empty postal code
+**Priority:** High
+**Type:** Negative
+**Precondition:** Logged in as standard_user with one product
+in the basket, on the checkout information page.
+
+**Steps**
+1. Enter Test in First Name.
+2. Enter Tester in Last Name.
+3. Leave Postal Code empty.
+4. Click Continue.
+
+**Expected Result**
+A message indicates that Postal Code is required.
+The user remains on the checkout information page.
+
+## TC-011: Complete an order
+**Priority:** High
+**Type:** Positive
+**Precondition:** Logged in as standard_user with exactly one
+product in the basket. Record its name and price.
+
+**Steps**
+1. Open the basket and click Checkout.
+2. Enter Test, Tester and SG5 1AA in the required fields.
+3. Click Continue.
+4. Check the product name, price and quantity.
+5. Check that Item total matches the product price.
+6. Check that Total equals Item total plus the displayed Tax.
+7. Click Finish.
+
+**Expected Result**
+- The overview shows the correct product and quantity 1.
+- The item total and final total are calculated correctly.
+- An order confirmation is displayed after clicking Finish.
